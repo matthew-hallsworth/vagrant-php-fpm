@@ -56,7 +56,7 @@ class devbox {
   }
 
   package {
-    ["php55w", "php55w-fpm", "php55w-common", "php55w-soap", "php55w-pdo", "php55w-pecl-memcache", "php55w-pecl-xdebug", "php55w-cli"]:
+    ["php55w", "php55w-fpm", "php55w-common", "php55w-soap", "php55w-pdo", "php55w-pecl-memcache", "php55w-pecl-xdebug", "php55w-cli", "php55w-xml"]:
       ensure => latest,
       require => Exec["webtatic-php55w"]
   }
